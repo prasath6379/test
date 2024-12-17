@@ -297,6 +297,16 @@ button
 
 
 
+@media all and (max-width:380px)
+{
+    .main h1
+    {
+        font-size: 25px;
+    }
+}
+
+
+
 
 
 
