@@ -1,0 +1,281 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #10143f;
+}
+
+nav
+{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: white;
+}
+
+.parent
+{
+    display: flex;
+    /* color: black; */
+    /* border: 1px solid; */
+    /* width: 160px; */
+    align-items: center;
+}
+
+.fa-c
+{
+    color: cyan;
+    font-size: 50px;
+    padding-right: 15px;
+}
+
+/* img
+{
+    border: 1px solid;
+    width: 30px;
+    background-size: cover;
+    background-size: 100%;
+} */
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    width: 450px;
+}
+
+.parent1
+{
+    display: flex;
+    border: 1px solid;
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+}
+
+.fa-moon
+{
+    /* margin-left: 15px; */
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: cyan;
+    color: white;
+}
+
+.fa-sun
+{
+    /* margin-left: 15px; */
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+
+button
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+ .hamberg
+{
+    display: none;
+    /* color: white; */
+    /* background-color: white; */
+}
+
+ .hamberg .bar
+{
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 26px;
+}
+
+
+.main
+{
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 27px;
+    justify-content: center;
+   
+}
+
+.main h1
+{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.main .para
+{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    /* text-align: justify; */
+}
+
+.main p
+{
+    font-weight: bold;
+    /* margin-top: 30px; */
+    font-size: 20px;
+    /* text-align: justify; */
+
+}
+
+.grand
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grand i
+{
+    margin-right: 20px;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#button
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.btnparent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:870px)
+{
+    nav
+    {
+        flex-direction: column;
+        /* height: 60px; */
+        /* justify-content: space-between; */
+        
+    }
+
+    .parent
+    {
+        /* padding-right: 100px; */
+        align-self: flex-start;
+    }
+
+    ul
+    {
+        flex-direction: column;
+        /* display: block; */
+        text-align: center;
+        margin-top: 40px;
+        display: none;
+        /* background-color: white; */
+        
+    }
+
+    .parent1
+    {
+        /* margin-right: 70px; */
+        display: none;
+    }
+
+    #btn
+    {
+        display: none;
+    }
+
+    ul li 
+    {
+        margin-top: 8px;
+    }
+
+    /* .logo
+    {
+        align-self: flex-start;
+    } */
+
+    .hamberg
+    {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 50px;
+    }
+
+    .showmenu
+    {
+        display: block;
+    }
+}
+
+
+
+@media all and (max-width:490px)
+{
+    .grand i
+    {
+        padding: 5px;
+    }
+
+    .main h1
+    {
+        font-size: 25px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
