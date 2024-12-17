@@ -297,11 +297,16 @@ button
 
 
 
-@media all and (max-width:380px)
+@media all and (max-width:426px)
 {
     .main h1
     {
         font-size: 25px;
+    }
+
+    .main .tail
+    {
+        margin-bottom: 40px;
     }
 }
 
